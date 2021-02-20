@@ -1,0 +1,28 @@
+CREATE DATABASE library;
+
+USE library;
+
+CREATE TABLE book(
+	bookID INT AUTO_INCREMENT PRIMARY KEY,
+	title VARCHAR(50),
+	author VARCHAR(30),
+	publisher VARCHAR(30),
+	year CHAR(4)
+);
+
+CREATE TABLE movie(
+	movieID INT AUTO_INCREMENT PRIMARY KEY,
+	title VARCHAR(50),
+	director VARCHAR(30),
+	producer VARCHAR(30),
+	YEAR CHAR(4),
+	MEDIUM VARCHAR(10)
+);
+
+CREATE TABLE game(
+	gameID INT AUTO_INCREMENT PRIMARY KEY,
+ 	title VARCHAR(50),
+ 	developer VARCHAR(30),
+ 	YEAR CHAR(4),
+ 	console VARCHAR(20)
+);

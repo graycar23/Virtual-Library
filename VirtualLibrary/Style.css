@@ -1,0 +1,31 @@
+﻿header {
+    background-color: dodgerblue;
+    font-size: 40pt;
+    color: white;
+}
+
+nav {
+    background-color: lightseagreen;
+}
+
+nav a, a:visited {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+footer {
+    font-size: 10px;
+}
+
+p{
+    font-size:large;
+}
+
+h1{
+    color:dodgerblue;
+    margin-bottom: 35px;
+}
+
+h2{
+    color:darkgreen;
+}

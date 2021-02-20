@@ -1,0 +1,20 @@
+﻿header {
+    background-color: maroon;
+    font-size: 40pt;
+    color: white;
+}
+
+nav{
+    background-color: aliceblue;
+}
+
+nav a, a:visited{
+    text-decoration: none;
+    color: maroon;
+}
+
+footer{
+    font-size: 10px;
+}
+
+

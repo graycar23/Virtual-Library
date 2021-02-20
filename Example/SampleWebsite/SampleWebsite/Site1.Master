@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SampleWebsite.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>EKU Department of Computer Science</header>
+        <nav>
+            <a href="default.aspx">Home Page</a> &nbsp; &nbsp;
+            <a href="SecondPage.aspx">Another Web Page</a>
+        </nav>
+        <%-- this is a comment --%>
+        <%-- The content placeholder is where an individual page's content will  
+            go if they are based on this master page.--%>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer> &copy; EKU CS Dept 2018</footer>
+
+    </form>
+</body>
+</html>
